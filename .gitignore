@@ -1,0 +1,14 @@
+.vscode
+.groovylintrc.json
+dist
+node_modules
+npm-debug.log
+yarn-error.log
+.env
+cypress/screenshots/
+cypress/videos/
+cypress/cucumber-json/
+cypress/report
+cypress/.run
+cypress/config/cadreon.js
+e2e/cypress.env.json

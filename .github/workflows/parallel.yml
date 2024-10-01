@@ -1,0 +1,34 @@
+name: E2E test parallel
+on: [pull_request]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    strategy:
+        fail-fast: false
+        matrix:
+          containers: [1, 2]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.7
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14' # O la versión que necesites
+      - name: Install dependencies
+        run: npm install
+        working-directory: ./e2e
+      
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v6.5.0
+        with:
+          start:  npm run cypress:open
+          working-directory: ./e2e
+        env:
+          CYPRESS_AUTH_AUDIENCE: ${{ secrets.AUTH_AUDIENCE }}
+          CYPRESS_AUTH_URL: ${{ secrets.AUTH_URL }}
+          CYPRESS_AUTH_BASE_URL: ${{ secrets.AUTH_BASE_URL }}
+          CYPRESS_AUTH_DOMAIN: ${{ secrets.AUTH_DOMAIN }}
+          CYPRESS_AUTH_CLIENT_ID: ${{ secrets.AUTH_CLIENT_ID }}
+          CYPRESS_AUTH_CLIENT_SECRET: ${{ secrets.AUTH_CLIENT_SECRET }}
+          CYPRESS_AUTH_USERNAME: ${{ secrets.AUTH_USERNAME }}
+          CYPRESS_AUTH_PASSWORD: ${{ secrets.AUTH_PASSWORD }}
