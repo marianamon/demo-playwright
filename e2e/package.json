@@ -4,8 +4,8 @@
   "description": "test E2E",
   "main": "index.js",
   "scripts": {
-    "ui-regression": "cypress run --browser chrome --spec cypress/e2e/bank-accouns/*.feature,cypress/e2e/Payments/*.feature,cypress/e2e/Notifications/*.feature",
-    "ui-regression-allure": "cypress run --browser chrome --spec cypress/e2e/bank-accouns/*.feature,cypress/e2e/Payments/*.feature,cypress/e2e/Notifications/*.feature --env allure=true",
+    "ui-regression": "cypress run --browser chrome --spec cypress/e2e/create-actions-items/*.feature",
+    "ui-regression-allure": "cypress run --browser chrome --spec cypress/e2e/create-actions-items/*.feature --env allure=true",
     "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true ",
     "allure:report": "npx allure generate allure-results --clean -o allure-report",
     "generate-cucumber-report": "npx createcucumberhtmlreport.js",

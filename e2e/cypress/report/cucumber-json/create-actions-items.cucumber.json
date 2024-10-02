@@ -1,0 +1,642 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Actions with Items",
+    "line": 1,
+    "id": "actions-with-items",
+    "tags": [],
+    "uri": "create-actions-items.feature",
+    "elements": [
+      {
+        "id": "actions-with-items;create-a-new-todo-item",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Create a new todo item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that the user is in the \"Home\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1202000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1072000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the data \"Run\"",
+            "result": {
+              "status": "passed",
+              "duration": 1180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the new todo item is created in Active status",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;create-a-new-todo-item",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Create a new todo item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that the user is in the \"Home\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1173000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1070000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the data \"Swin\"",
+            "result": {
+              "status": "passed",
+              "duration": 1189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the new todo item is created in Active status",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;create-a-new-todo-item",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Create a new todo item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that the user is in the \"Home\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1071000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the data \"sleep\"",
+            "result": {
+              "status": "passed",
+              "duration": 1203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the new todo item is created in Active status",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;duplicate-a-todo-item",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Duplicate a todo item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "that the user is in the \"Home\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user enters the data \"Run\"",
+            "result": {
+              "status": "passed",
+              "duration": 1175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the new todo item is created in Active status",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;duplicate-a-todo-item",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Duplicate a todo item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "that the user is in the \"Home\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1072000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user enters the data \"Run\"",
+            "result": {
+              "status": "passed",
+              "duration": 1176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the new todo item is created in Active status",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;validate-that-number-of-items-left-is-the-same-as-count-of-active-todo-items-in-the-list-with-all-filter",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Validate that Number of items left is the same as count of active todo items in the list with All filter",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "that the user is in the \"Home\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user enters the data \"Car\"",
+            "result": {
+              "status": "passed",
+              "duration": 1178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "the user filters by \"All\" status",
+            "result": {
+              "status": "passed",
+              "duration": 1085000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "the total number of items is equal to that indicated by the label items left",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;change-a-todo-item-from-active-to-completed-status",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Change a todo item from active to completed status",
+        "tags": [
+          {
+            "name": "@create_todoItem(1)",
+            "line": 34
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "that the user is in the \"Home\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1071000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "the user enters the data \"Car\"",
+            "result": {
+              "status": "passed",
+              "duration": 1179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "the user clicks on the \"check\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "the user filters by \"Completed\" status",
+            "result": {
+              "status": "passed",
+              "duration": 1101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "the todo item is successfully \"changed status\"",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;clear-completed-todo-items",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "Clear completed todo items",
+        "tags": [
+          {
+            "name": "@create_todoItem(1)",
+            "line": 46
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 48,
+            "name": "that the user is in the \"Home\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1070000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "the user enters the data \"Dance\"",
+            "result": {
+              "status": "passed",
+              "duration": 1198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "the user filters by \"Active\" status",
+            "result": {
+              "status": "passed",
+              "duration": 1104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "the user clicks on the \"check\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "the user clicks on the \"clear completed\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "the todo item is successfully \"deleted\"",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;delete-a-todo-item-in-active-status",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "Delete a todo item in active status",
+        "tags": [
+          {
+            "name": "@create_todoItem(1)",
+            "line": 59
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "that the user is in the \"Home\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1070000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "the user enters the data \"Sleep\"",
+            "result": {
+              "status": "passed",
+              "duration": 1197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "the user filters by \"Active\" status",
+            "result": {
+              "status": "passed",
+              "duration": 1100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "the user clicks on the \"delete\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "the todo item is successfully \"deleted\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;delete-a-todo-item-in-completed-status",
+        "keyword": "Scenario",
+        "line": 82,
+        "name": "Delete a todo item in Completed status",
+        "tags": [
+          {
+            "name": "@create_todoItem(1)",
+            "line": 71
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 73,
+            "name": "that the user is in the \"Home\" page",
+            "result": {
+              "status": "passed",
+              "duration": 1137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 75,
+            "name": "the user enters the data \"Run\"",
+            "result": {
+              "status": "passed",
+              "duration": 1178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "the user clicks on the \"check\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1076000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "the user filters by \"Completed\" status",
+            "result": {
+              "status": "passed",
+              "duration": 1099000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "the user clicks on the \"delete\" option",
+            "result": {
+              "status": "passed",
+              "duration": 1169000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "the todo item is successfully \"deleted\"",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

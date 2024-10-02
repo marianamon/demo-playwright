@@ -1,7 +1,7 @@
 describe('Authenticated Visit', () => {
     it('should visit the page with an authenticated session', () => {
       cy.login().then(() => {
-        cy.visitAuthenticated('https://cypress-test.kindocean-accbe3eb.centralus.azurecontainerapps.io/src/containers/');
+        cy.visitAuthenticated('https://demo.playwright.dev/todomvc/#/');
         cy.window().then((win) => {
           const tokenData = JSON.parse(win.localStorage.getItem('auth_token'));
           expect(tokenData).to.have.property('body');
