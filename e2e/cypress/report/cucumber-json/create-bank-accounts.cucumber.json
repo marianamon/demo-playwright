@@ -1,0 +1,215 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Actions with Items",
+    "line": 1,
+    "id": "actions-with-items",
+    "tags": [],
+    "uri": "create-bank-accounts.feature",
+    "elements": [
+      {
+        "id": "actions-with-items;create-a-new-item",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Create a new item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that the user is in the \"What needs to be done?\" page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the data \"Run\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user presses the enter key",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the new item is created in Active status",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;create-a-new-item",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Create a new item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that the user is in the \"What needs to be done?\" page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the data \"Swin\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user presses the enter key",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the new item is created in Active status",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;create-a-new-item",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Create a new item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "that the user is in the \"What needs to be done?\" page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user clicks on the \"New todo\" option",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters the data \"sleep\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user presses the enter key",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the new item is created in Active status",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "actions-with-items;delete-a-bank-account",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Delete a Bank Account",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "that the user is in the \"Bank Accounts\" page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.request()` requires a `url`. You did not provide a `url`.\n    at Context.request (http://localhost:60095/__cypress/runner/cypress_runner.js:132691:70)\n    at wrapped (http://localhost:60095/__cypress/runner/cypress_runner.js:138137:43)\nFrom Your Spec Code:\n    at LoginApi.login (cypress/services/api-login.ts:26:9)\n    at BaseActions.generateTokenAndAuthentication (cypress/support/actions/base.action.ts:10:13)\n    at Context.eval (cypress/support/step_definitions/create-bank-accounts.steps.ts:9:16)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "the user clicks on the \"Delete\" button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the bank account is deleted in the user's account list",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
