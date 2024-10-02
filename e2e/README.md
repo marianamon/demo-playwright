@@ -1,7 +1,7 @@
 # CypressE2E
 
 
-1. Clone the repo using git clone --recursive https://github.com/marianamon/CypressE2E.git
+1. Clone the repo using git clone --recursive https://github.com/marianamon/demo-playwright
 
 2. Please make sure you have Node 14.X.X
 
